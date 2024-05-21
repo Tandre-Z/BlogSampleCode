@@ -1,0 +1,25 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:VisualElement name="Container" style="flex-grow: 1; flex-direction: row;">
+        <ui:VisualElement name="LocalizationItemList" style="width: 38%; background-color: rgb(56, 56, 56); height: auto; border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(79, 79, 79); border-right-color: rgb(79, 79, 79); border-top-color: rgb(79, 79, 79); border-bottom-color: rgb(79, 79, 79); min-height: 400px;">
+            <ui:VisualElement name="Header" style="flex-direction: row; align-items: stretch; justify-content: space-between; height: 30px;">
+                <uie:ToolbarSearchField focusable="true" name="SearchField" style="width: 85%; min-width: 1px; min-height: 1px;" />
+                <ui:Button text="+" display-tooltip-when-elided="true" name="BtnAddLocalizationItem" />
+            </ui:VisualElement>
+            <ui:ListView focusable="true" name="ListView" show-border="true" reorderable="true" style="justify-content: flex-start; height: 100%;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="SentenceList" style="width: 60%; background-color: rgb(120, 119, 119); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; height: auto; border-left-color: rgb(79, 79, 79); border-right-color: rgb(79, 79, 79); border-top-color: rgb(79, 79, 79); border-bottom-color: rgb(79, 79, 79); align-items: stretch; min-height: 400px;">
+            <ui:VisualElement name="Header" style="height: 30px; width: 100%; flex-direction: row; flex-wrap: nowrap; flex-shrink: 1; justify-content: flex-start; -unity-font-style: bold; background-color: rgb(67, 66, 66);">
+                <ui:TextField picking-mode="Ignore" value="filler text" text="filler text" name="TextField" style="width: 60%;" />
+                <ui:VisualElement style="flex-direction: row; justify-content: space-between; width: 40%;">
+                    <ui:Button text="Save" display-tooltip-when-elided="true" name="BtnSave" />
+                    <ui:Button text="Delete" display-tooltip-when-elided="true" name="BtnDeleteLocalizationItem" style="align-items: stretch; justify-content: center; -unity-text-align: middle-center; white-space: nowrap;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:ListView focusable="true" name="ListView" style="height: 100%; width: 100%; background-color: rgb(56, 56, 56); border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); border-left-width: 1px; border-right-width: 1px; border-top-width: 1px; border-bottom-width: 0;" />
+            <ui:VisualElement name="BtnContaintor" style="flex-direction: row; width: 100%; justify-content: space-around; height: 30px; border-left-width: 1px; border-right-width: 1px; border-top-width: 0; border-bottom-width: 1px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); background-color: rgb(56, 56, 56);">
+                <ui:Button text="添加一种语言" display-tooltip-when-elided="true" name="BtnAddLocalizedSentence" style="width: 50%; align-items: stretch; margin-left: 5px; margin-right: 5px; margin-top: 2px; margin-bottom: 2px;" />
+                <ui:Button text="删除所选语言" display-tooltip-when-elided="true" name="BtnDeleteLocalizedSentence" style="width: 50%; align-items: stretch; margin-left: 5px; margin-right: 5px; margin-top: 2px; margin-bottom: 2px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

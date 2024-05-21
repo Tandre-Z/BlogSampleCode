@@ -1,0 +1,16 @@
+[
+  {
+    "language": "Chinese",
+    "localizationItems": {
+      "about": "关于",
+      "menu": "菜单"
+    }
+  },
+  {
+    "language": "English",
+    "localizationItems": {
+      "about": "About",
+      "menu": "Menu"
+    }
+  }
+]

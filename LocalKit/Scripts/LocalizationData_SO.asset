@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21264adbf8ab18849afd407fa4250b39, type: 3}
+  m_Name: LocalizationData_SO
+  m_EditorClassIdentifier: Assembly-CSharp::LocalizationData_SO
+  localizationItemList:
+  - Name: about
+    localizedSentence:
+    - Name: "Chinese - \u5173\u4E8E"
+      language: 6
+      Text: "\u5173\u4E8E"
+    - Name: English - About
+      language: 10
+      Text: About
+  - Name: menu
+    localizedSentence:
+    - Name: English - Menu
+      language: 10
+      Text: Menu
+    - Name: "Chinese - \u83DC\u5355"
+      language: 6
+      Text: "\u83DC\u5355"
